@@ -1,0 +1,284 @@
+body {
+    margin: 0; /* Убираем отступы по умолчанию */
+    padding: 0; /* Убираем внутренние отступы по умолчанию */
+    font-family: "Jura", serif; /* Стиль текста */
+    overflow-x: hidden; /* Скрываем горизонтальную прокрутку, если она появляется */
+    min-width: 100%; /* Минимальная ширина равна ширине окна */
+    min-height: 100vh; /* Минимальная высота равна высоте окна */
+    background: linear-gradient(180deg, #272933 0%, #1a1b20 100%);
+    background-repeat: no-repeat; /* не повторяет изображение */
+    background-size: cover;/* растянуто на весь экран */
+    font-family: "Jura", serif;
+    background-image:url(tesla222.png);
+
+}
+
+.header {
+   
+}
+
+.header-line {
+    padding-top: 2%;/* отступ */
+    display: flex;/* элементы будут в одну линию */
+    align-items: center; /* не дает элементам лежать друг на друге, выравнивая по центру */
+    justify-content: center; /* выравнивает логотип и навигационное меню по центру */
+}
+
+.nav {
+    color: white;/* цвет */
+    text-decoration: none;/* подчеркивание текста */
+    font-size: 18px;/* размер текста */
+    padding: 10px;  /* отступы между вкладками */
+    font-weight: 700; /* начертание */
+    transition: color 0.3s linear;/* появление анимации */
+}
+
+.logo-logo {
+    align-content: center;
+    padding-left: 40px;
+    padding-bottom: 25px;
+}
+
+.nav:hover {
+    color: #343535; /* цвет анимации */
+}
+
+.container {
+    /* margin: 0 5%; отступ сверху и снизу, справа и слева */
+}
+
+.zag-text {
+
+}
+
+.title-main > h1 {
+    font-family: "Jura", serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+.title-1 > .photo-1 {
+    color: #000;
+    padding: 25px;
+    border-radius: 50px;
+    width: 599px;
+    height: 407px;
+    flex-shrink: 0; /* Запрещаем сжатие картинки */
+}
+
+.text-1 {
+    color: #fff;
+}
+
+.title-1 > h2 {
+    font-family: "Jura", serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+
+.title-1 > p {
+    font-family: "Jura", serif;
+    font-weight: 700;
+    font-size: 18px;
+    font-variant: small-caps;
+    color: #fff;
+}
+
+.wrapper-1 {
+    width: 100%; /* Занимает всю ширину родительского элемента */
+}
+
+.title-1 {
+    display: flex; /* Включаем Flexbox */
+    align-items: center; /* Центрируем элементы по вертикали */
+    gap: 20px; /* Расстояние между картинкой и текстом */ 
+}
+
+
+.title-2 > .photo-2 {
+    color: #000;
+    padding: 25px;
+    border-radius: 50px;
+    width: 599px;
+    height: 407px;
+    flex-shrink: 0; /* Запрещаем сжатие картинки */
+}
+
+.text-2 {
+    color: #fff;
+    padding-left: 25px;
+    text-align: right;
+}
+
+.title-2 > h2 {
+    font-family: "Jura", serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+
+.title-2 > p {
+    font-family: "Jura", serif;
+    font-weight: 700;
+    font-size: 18px;
+    font-variant: small-caps;
+    color: #fff;
+}
+
+.wrapper-2 {
+    width: 100%; /* Занимает всю ширину родительского элемента */
+}
+
+.title-2 {
+    display: flex; /* Включаем Flexbox */
+    align-items: center; /* Центрируем элементы по вертикали */
+    gap: 20px; /* Расстояние между картинкой и текстом */ 
+}
+
+
+.photo-3 {
+    color: #000;
+    padding: 25px;
+    border-radius: 50px;
+    width: 610px;
+    height: 407px;
+    flex-shrink: 0; /* Запрещаем сжатие картинки */
+}
+
+.text-3 {
+    color: #fff;
+}
+
+.title-3 > h2 {
+    font-family: "Jura", serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+
+.title-3 > p {
+    font-family: "Jura", serif;
+    font-weight: 700;
+    font-size: 18px;
+    font-variant: small-caps;
+    color: #fff;
+}
+
+.wrapper-3 {
+    width: 100%; /* Занимает всю ширину родительского элемента */
+}
+
+.title-3 {
+    display: flex; /* Включаем Flexbox */
+    align-items: center; /* Центрируем элементы по вертикали */
+    gap: 20px; /* Расстояние между картинкой и текстом */ 
+}
+
+.title-4 > .photo-4 {
+    color: #000;
+    padding: 25px;
+    border-radius: 50px;
+    width: 599px;
+    height: 407px;
+    flex-shrink: 0; /* Запрещаем сжатие картинки */
+}
+
+.text-4 {
+    color: #fff;
+    padding-left: 25px;
+    text-align: right;
+}
+
+.title-4 > h2 {
+    font-family: "Jura", serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+
+.title-4 > p {
+    font-family: "Jura", serif;
+    font-weight: 700;
+    font-size: 18px;
+    font-variant: small-caps;
+    color: #fff;
+}
+
+.wrapper-4 {
+    width: 100%; /* Занимает всю ширину родительского элемента */
+}
+
+.title-4 {
+    display: flex; /* Включаем Flexbox */
+    align-items: center; /* Центрируем элементы по вертикали */
+    gap: 20px; /* Расстояние между картинкой и текстом */ 
+}
+
+@media only screen and (max-width: 768px) {
+    .header-line {
+        flex-direction: column; /* Вертикальный порядок элементов */
+        align-items: center; /* Центрируем по горизонтали */
+        padding-top: 10px; 
+        gap: 10px; /* Расстояние между элементами меню и логотипом */
+        flex-wrap: wrap; 
+        justify-content:center; 
+        padding-bottom :20px
+    }
+    
+    .nav {
+        margin: 10px 0;
+      font-size: 14px;
+      padding: 2px;
+    }
+    
+    .logo-logo {
+    width: 300px; 
+      height: auto;
+      padding-left: 5%;
+      padding-bottom: 30px;
+    }
+    
+    .title-main > h1 {
+        font-size: 32px; /* Уменьшаем размер заголовка */
+    }
+    
+    .title-1 > .photo-1,
+    .title-2 > .photo-2,
+    .title-3 > .photo-3,
+    .title-4 > .photo-4 {
+        width: 90%;
+        height: auto; /* Масштабируем изображения */
+    }
+    
+    .title-1,
+    .title-2,
+    .title-3,
+    .title-4 {
+        flex-direction: column; /* Изменяем расположение блоков на вертикальное */
+        gap: 10px; /* Уменьшаем расстояние между элементами */
+    }
+    
+    .title-1 > h2,
+    .title-2 > h2,
+    .title-3 > h2,
+    .title-4 > h2 {
+        font-size: 28px; /* Уменьшаем размер заголовков */
+    }
+    
+    .title-1 > p,
+    .title-2 > p,
+    .title-3 > p,
+    .title-4 > p {
+        font-size: 14px; /* Уменьшаем размер параграфов */
+    }
+    .text-1,
+    .text-2,
+    .text-3,
+    .text-4 {
+        padding-left: 0; /* Убираем отступ слева */
+        text-align: center; /* Выравниваем текст по левому краю */
+    }
+}

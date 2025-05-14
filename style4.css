@@ -1,0 +1,160 @@
+
+body {
+    margin: 0; /* Убираем отступы по умолчанию */
+    padding: 0; /* Убираем внутренние отступы по умолчанию */
+    font-family: 'Roboto', Arial, sans-serif; /* Стиль текста */
+    overflow-x: hidden; /* Скрываем горизонтальную прокрутку, если она появляется */
+    min-width: 100%; /* Минимальная ширина равна ширине окна */
+    min-height: 100vh; /* Минимальная высота равна высоте окна */
+    background-image: url(Frame\ 3.png);
+    background-repeat: no-repeat; /* не повторяет изображение */
+    background-size: cover;/* растянуто на весь экран */
+    font-family: "Jura", serif;
+}
+
+.header {
+   
+}
+
+.header-line {
+    padding-top: 2%;/* отступ */
+    display: flex;/* элементы будут в одну линию */
+    align-items: center; /* не дает элементам лежать друг на друге, выравнивая по центру */
+    justify-content: center; /* выравнивает логотип и навигационное меню по центру */
+}
+
+.nav {
+    color: white;/* цвет */
+    text-decoration: none;/* подчеркивание текста */
+    font-size: 18px;/* размер текста */
+    padding: 10px;  /* отступы между вкладками */
+    font-weight: 700; /* начертание */
+    transition: color 0.3s linear;/* появление анимации */
+}
+
+.logo-logo {
+    align-content: center;
+    padding-left: 40px;
+    padding-bottom: 25px;
+}
+
+.nav:hover {
+    color: #343535; /* цвет анимации */
+}
+
+.container {
+    /* margin: 0 5%; отступ сверху и снизу, справа и слева */
+}
+
+.zag-text {
+
+}
+
+.zag-text>h1 {
+    /* background-color: #0f0f0f; */
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+    padding-top: 20px;
+    text-align: center; /* выравнивание текста по центру */
+    font-family: "Jura", serif;
+}
+
+.zag-text>p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    margin: 0 65px;
+    margin-top: -15px;
+    text-align: center; /* выравнивание текста по центру */
+    font-family: "Jura", serif;
+}
+
+.main-text-1{
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.zag-text-2>h1 {
+    /* background-color: #0f0f0f; */
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+    
+    text-align: center; /* выравнивание текста по центру */
+    font-family: "Jura", serif;
+}
+
+.main-text-2{
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.VkTg{
+    display: flex;
+    margin: 15px;
+    padding-top: 8%;
+    float: right;
+    margin-right: 10%;
+}
+
+@media only screen and (max-width :768px) {
+
+    /* Меняем направление навигации на колонку */
+    .header-line {
+        flex-direction: column; /* Вертикальное расположение элементов */
+        align-items:center; /* Центрируем элементы по горизонтали */
+        padding-bottom :20px ;
+  
+  }
+    
+  /* Уменьшаем размер шрифтов заголовков и текста */
+  .zag-text > h1 {
+       font-size :36px ;
+       padding-top :20px ;
+  }
+  .zag-text-2 > h1 {
+    font-size :36px ;
+    padding-top :20px ;
+}
+  .zag-text > p {
+       font-size :16px ;
+       margin :0 auto ;
+       max-width :90% ;
+  }
+  .main-text-1,
+  .main-text-2{
+       font-size :18px ;
+  }
+    
+  /* Убираем большие отступы у логотипа и меню */
+  .logo-logo{
+    width: 300px; /* или другой подходящий размер */
+      height: auto;
+      padding-left: 5%;
+      padding-bottom: 30px;
+  }
+    
+  /* Центрируем меню и делаем его вертикальным списком на мобильных устройствах*/
+  #menu{
+    flex-direction: column; /* Располагаем пункты вертикально */
+    align-items: center; /* Центрируем пункты меню */
+    padding: 10px;
+  }
+  .nav{
+    margin: 10px 0;
+      font-size: 14px;
+      padding: 2px;
+  }
+  /* Убираем float у VkTg и делаем его центрированным блоком*/
+  .VkTg{
+       justify-content:center ; 
+       margin-top :20px ; 
+  }
+  }

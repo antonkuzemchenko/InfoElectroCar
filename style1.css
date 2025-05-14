@@ -1,0 +1,172 @@
+body {
+    margin: 0; /* Убираем отступы по умолчанию */
+    padding: 0; /* Убираем внутренние отступы по умолчанию */
+    font-family: 'Roboto', Arial, sans-serif; /* Стиль текста */
+    overflow-x: hidden; /* Скрываем горизонтальную прокрутку, если она появляется */
+    min-width: 100%; /* Минимальная ширина равна ширине окна */
+    min-height: 100vh; /* Минимальная высота равна высоте окна */
+    background-image: url(Frame\ 3.png);
+    background-repeat: no-repeat; /* не повторяет изображение */
+    background-size: cover;/* растянуто на весь экран */
+    font-family: "Jura", serif;
+}
+
+.header {
+   
+}
+
+.header-line {
+    padding-top: 2%;/* отступ */
+    display: flex;/* элементы будут в одну линию */
+    align-items: center; /* не дает элементам лежать друг на друге, выравнивая по центру */
+    justify-content: center; /* выравнивает логотип и навигационное меню по центру */
+}
+
+.nav {
+    color: white;/* цвет */
+    text-decoration: none;/* подчеркивание текста */
+    font-size: 18px;/* размер текста */
+    padding: 10px;  /* отступы между вкладками */
+    font-weight: 700; /* начертание */
+    transition: color 0.3s linear;/* появление анимации */
+}
+
+.logo-logo {
+    align-content: center;
+    padding-left: 40px;
+    padding-bottom: 25px;
+}
+
+.nav:hover {
+    color: #343535; /* цвет анимации */
+}
+
+.container {
+    /* margin: 0 5%; отступ сверху и снизу, справа и слева */
+}
+
+.zag-text {
+
+}
+
+.zag-text>h1 {
+    /* background-color: #0f0f0f; */
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+    padding-top: 100px;
+    text-align: center; /* выравнивание текста по центру */
+    font-family: "Jura", serif;
+}
+
+.zag-text>p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    margin: 0 65px;
+    margin-top: -15px;
+    text-align: center; /* выравнивание текста по центру */
+    font-family: "Jura", serif;
+}
+
+.osn-text {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Jura", serif;
+    margin-left: 10%; /* изменение значения для пропорционального отступа */
+}
+
+button {
+    padding: 20px 50px;
+    outline: none; /* убирает обводку (не работает) */
+    border: none; /* убирает границы  */
+    border-radius: 25px;
+    background-color: rgb(39, 41, 51);
+    font-size: 20px;
+    font-family: "Jura", serif;
+    font-weight: 700;
+    color: white;
+    cursor: pointer; 
+    box-shadow: 0px 5px 10px #0f0f0f;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.35s ;
+    margin: 50px auto;
+    display: block;
+    text-decoration: none;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(44, 44, 44);
+
+}
+
+
+
+button:hover {
+    color: white;
+    background-color: rgb(44, 44, 44);
+}
+
+
+a {
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    body {
+      font-family: 'Jura', serif;
+      background-position: center;
+    }
+  
+    /* Центрируем и уменьшаем заголовок */
+    .zag-text>h1 {
+      font-size: 36px;
+      padding-top: 50px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    /* Уменьшаем параграф */
+    .zag-text>p {
+      font-size: 18px;
+      margin: 0 20px;
+      margin-top: -10px;
+    }
+  
+    /* Меняем размеры кнопки */
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      margin: 30px auto;
+      display: block;
+    }
+  
+    /* Меню навигации - делаем его более удобным для мобильных */
+    #menu {
+      flex-direction: column; /* Располагаем пункты вертикально */
+      align-items: center; /* Центрируем пункты меню */
+      padding: 10px;
+    }
+  
+    .nav {
+      
+      margin: 10px 0;
+      font-size: 14px;
+      padding: 2px;
+    }
+  
+    /* Логотип — уменьшаем размер */
+    .logo-logo {
+      width: 300px; /* или другой подходящий размер */
+      height: auto;
+      padding-left: 5%;
+      padding-bottom: 30px;
+    
+    }
+  }
+

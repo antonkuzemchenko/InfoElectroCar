@@ -1,0 +1,351 @@
+body {
+    margin: 0; /* Убираем отступы по умолчанию */
+    padding: 0; /* Убираем внутренние отступы по умолчанию */
+    font-family: "Jura", serif; /* Стиль текста */
+    overflow-x: hidden; /* Скрываем горизонтальную прокрутку, если она появляется */
+    min-width: 100%; /* Минимальная ширина равна ширине окна */
+    min-height: 100vh; /* Минимальная высота равна высоте окна */
+    background: linear-gradient(180deg, #272933 0%, #1a1b20 100%);
+    background-repeat: no-repeat; /* не повторяет изображение */
+    background-size: cover;/* растянуто на весь экран */
+    font-family: "Jura", serif;
+    
+
+}
+
+.header {
+   
+}
+
+.header-line {
+    padding-top: 2%;/* отступ */
+    display: flex;/* элементы будут в одну линию */
+    align-items: center; /* не дает элементам лежать друг на друге, выравнивая по центру */
+    justify-content: center; /* выравнивает логотип и навигационное меню по центру */
+}
+
+.nav {
+    color: white;/* цвет */
+    text-decoration: none;/* подчеркивание текста */
+    font-size: 18px;/* размер текста */
+    padding: 10px;  /* отступы между вкладками */
+    font-weight: 700; /* начертание */
+    transition: color 0.3s linear;/* появление анимации */
+}
+
+.logo-logo {
+    align-content: center;
+    padding-left: 40px;
+    padding-bottom: 25px;
+}
+
+.nav:hover {
+    color: #343535; /* цвет анимации */
+}
+
+.container {
+    /* margin: 0 5%; отступ сверху и снизу, справа и слева */
+}
+
+.zag-text {
+
+}
+
+.zag-text>h1 {
+    font-family: "Jura", serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+.wrapper-1{
+    max-width: 50%; /* Ширина контейнера */
+    margin-top: 5%; /* Отступ сверху */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 2%; /* Внутренние отступы */
+    font-family: "Jura", serif;
+    background-color: rgb(39, 41, 51);
+    margin-left: auto; /* Автоматический отступ слева */
+    margin-right: auto; /* Автоматический отступ справа */
+   
+}
+
+.car-image-1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.car-image {
+    border-radius: 25px;
+    width: 386px;
+    height: 240px;
+}
+
+.text-1 > h2 {
+    font-family: "Jura", serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+
+.text-1 > p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+
+.car-specs {
+    margin-top: 2%; /* изменение значения для пропорционального отступа */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spec-item {
+    display: inline-block;
+    padding: 1%; /* изменение значений для пропорциональных отступов */
+    background-color: #272727;
+    border-radius: 5px;
+    margin-right: 1%; /* изменение значения для пропорционального отступа */
+    font-weight: bold;
+    color: white;
+}
+
+.wrapper-2{
+    max-width: 50%; /* Ширина контейнера */
+    margin-top: 5%; /* Отступ сверху */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 2%; /* Внутренние отступы */
+    font-family: "Jura", serif;
+    background-color: rgb(39, 41, 51);
+    margin-left: auto; /* Автоматический отступ слева */
+    margin-right: auto; /* Автоматический отступ справа */
+   
+}
+
+.car-image-2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.car-image {
+    border-radius: 25px;
+    width: 386px;
+    height: 240px;
+}
+
+.text-2 > h2 {
+    font-family: "Jura", serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+
+.text-2 > p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+
+
+.wrapper-3{
+    max-width: 50%; /* Ширина контейнера */
+    margin-top: 5%; /* Отступ сверху */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 2%; /* Внутренние отступы */
+    font-family: "Jura", serif;
+    background-color: rgb(39, 41, 51);
+    margin-left: auto; /* Автоматический отступ слева */
+    margin-right: auto; /* Автоматический отступ справа */
+   
+}
+
+.car-image-3 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.car-image {
+    border-radius: 25px;
+    width: 386px;
+    height: 240px;
+}
+
+.text-3 > h2 {
+    font-family: "Jura", serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+
+.text-3 > p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+
+
+
+.wrapper-4{
+    max-width: 50%; /* Ширина контейнера */
+    margin-top: 5%; /* Отступ сверху */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 2%; /* Внутренние отступы */
+    font-family: "Jura", serif;
+    background-color: rgb(39, 41, 51);
+    margin-left: auto; /* Автоматический отступ слева */
+    margin-right: auto; /* Автоматический отступ справа */
+   
+}
+
+.car-image-4 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.car-image {
+    border-radius: 25px;
+    width: 386px;
+    height: 240px;
+}
+
+.text-4 > h2 {
+    font-family: "Jura", serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+
+.text-4 > p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+
+
+
+.wrapper-5{
+    max-width: 50%; /* Ширина контейнера */
+    margin-top: 5%; /* Отступ сверху */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 2%; /* Внутренние отступы */
+    font-family: "Jura", serif;
+    background-color: rgb(39, 41, 51);
+    margin-left: auto; /* Автоматический отступ слева */
+    margin-right: auto; /* Автоматический отступ справа */
+    margin-bottom: 50px;
+}
+
+.car-image-5 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.car-image {
+    border-radius: 25px;
+    width: 386px;
+    height: 240px;
+}
+
+.text-5 > h2 {
+    font-family: "Jura", serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+
+.text-5 > p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    body {
+        font-family: 'Jura', serif;
+      background-position: center;
+    }
+
+    /* Заголовок */
+    .zag-text > h1 {
+        font-size: 36px;
+        padding: 0 10px;
+    }
+
+    /* Обертки для карточек */
+    .wrapper-1,
+    .wrapper-2,
+    .wrapper-3,
+    .wrapper-4,
+    .wrapper-5 {
+        max-width: 90%;
+        margin-top: 20px;
+        padding: 4%;
+        border-radius: 15px;
+    }
+
+    /* Изображения */
+    .car-image {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        border-radius: 15px;
+    }
+
+    /* Заголовки внутри карточек */
+    [class^="text-"] > h2 {
+        font-size: 24px;
+    }
+
+    /* Текст внутри карточек */
+    [class^="text-"] > p {
+        font-size: 18px;
+    }
+
+    /* Карточки в колонку вместо строки */
+    .car-specs {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    /* Спецификации - блоки */
+    .spec-item {
+        display: block;
+        width: auto;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .nav {
+      
+        margin: 10px 0;
+      font-size: 14px;
+      padding: 2px;
+      }
+    
+      /* Логотип — уменьшаем размер */
+      .logo-logo {
+        width: 300px; /* или другой подходящий размер */
+      height: auto;
+      padding-left: 5%;
+      padding-bottom: 30px;
+      
+      }
+}
